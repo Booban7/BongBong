@@ -1,0 +1,8 @@
+.sidebar {
+    position: relative;
+    width: 300px;
+    height: 100vh;
+    background: orangered;
+    padding: 10px;
+    box-sizing: border-box;
+}

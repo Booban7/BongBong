@@ -1,0 +1,41 @@
+.form {
+    position: relative;
+    box-sizing: border-box; 
+}
+
+.form>form>div {
+    display: inline-flex;
+    width: 93%;
+    align-items: center;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px !important;
+    border-radius: 3px;
+}
+
+.form>form>div>input {
+    position: absolute;
+    right: 10px;
+    width: 200px;
+    height: 26px;
+    border-radius: 4px;
+    border: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.form>form>button {
+    position: relative;
+    left: 180px;
+    width: 100px;
+    height: 26px;
+    border-radius: 2px;
+    border: 0px; 
+    background: linear-gradient(180deg, lightgreen, green);
+    margin-bottom: 10px;
+    color: white;
+}
+
+.form>h4 {
+    margin-bottom: 10px; 
+}
